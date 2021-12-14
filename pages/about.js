@@ -1,5 +1,19 @@
+import Link from 'next/link'
+
 export default function About(){
-    return <h1> Página de About! </h1>
+    return (
+        <>
+            <h1> Página de About! </h1>
+
+            <Link href="/">
+                <a> Retornar </a>
+            </Link>
+            
+        </>
+    
+    
+    
+    )
 
 }
 
@@ -9,3 +23,4 @@ export default function About(){
 //por exemplo : https://www.localhost:3000/about = index.js
 // este arquivo  deve está fora da pasta ./pages/api.
 //deve pertencer a pasta pages.
+
