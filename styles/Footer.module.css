@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 55px;
+    cursor:pointer;
+    display: flex;
+
+}
+
+.footer a{
+    color: #FFF;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.footer a:hover {
+    color: yellow;
+}

@@ -1,9 +1,9 @@
-import Navbar from "../../../components/Navbar"
+
 
 export default function Bluepants(){
     return(
         <>
-            <Navbar />
+            
             <h1> Calça azul só R$ 99,99. </h1>
 
         </>

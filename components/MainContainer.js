@@ -2,18 +2,20 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 
-export default function MainContainer({ children }){
+
+
+export default function MainContainer({children}){
     return(
         <>
-        <Navbar />
-        
-        <div> { children } </div>
+                <Navbar />
 
-        <Footer />
-        
-        
+                <Footer />
+
+                
+                
+                <div>{children}</div>
+       
         </>
-
     )
 }
 
