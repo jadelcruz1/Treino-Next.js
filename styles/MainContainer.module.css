@@ -1,0 +1,17 @@
+.container {
+    min-height: 60vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.container a{
+    color: #FFF;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.container a:hover {
+    color: yellow;
+}

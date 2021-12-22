@@ -1,6 +1,8 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
 
+import styles from '../styles/MainContainer.module.css'
+
 
 
 
@@ -9,12 +11,12 @@ export default function MainContainer({children}){
         <>
                 <Navbar />
 
+                <div className={styles.container}>{children}</div>
+
                 <Footer />
 
                 
-                
-                <div>{children}</div>
-       
+                                     
         </>
     )
 }
@@ -23,3 +25,5 @@ export default function MainContainer({children}){
 não se pode esquecer de colocar a propriedade { children }, pois ela entende que algum conteúdo irá
 no meio do componente.
 */
+
+
