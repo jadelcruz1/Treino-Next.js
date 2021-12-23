@@ -5,7 +5,7 @@
 }
 
 .container a{
-    color: #FFF;
+    color: black;
     margin-right: 1em;
     text-decoration: none;
     transition: 0.3s;
@@ -13,5 +13,5 @@
 
 
 .container a:hover {
-    color: yellow;
+    color: black;
 }

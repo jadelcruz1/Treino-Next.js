@@ -28,6 +28,15 @@ export default function Navbar(){
             </Link>
             </li>
 
+            <li>
+
+            <Link href="/Contato">
+                <a> Contato </a>
+            </Link>
+            </li>
+
+
+
       </ul>
 
     )
