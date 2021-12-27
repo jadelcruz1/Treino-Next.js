@@ -1,6 +1,7 @@
 import Head from 'next/head' // lembrar semprede importar o Head
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import image from 'next/image'
 
 
 
@@ -23,6 +24,13 @@ export default function Home() {
       <div>
 
       <h1 className={styles.title}> Página Home </h1>
+      <Image // a tag Image deve ser usada juntamente com a importação, import image from 'next/image'
+
+        src="/images/city.jpg" 
+        width="400px"
+        height="400px" 
+        alt="Cidade a noite"
+        />
 
       </div>
            
