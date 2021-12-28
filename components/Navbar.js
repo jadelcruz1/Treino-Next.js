@@ -21,6 +21,15 @@ export default function Navbar(){
             </Link>
             </li>
 
+            
+
+            <li>
+
+            <Link href="/users">
+                <a> Users </a>
+            </Link>
+            </li>
+
             <li>
 
             <Link href="/products">
