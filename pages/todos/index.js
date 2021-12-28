@@ -7,7 +7,7 @@ Api usada foi do site https://jsonplaceholder.typicode.com/todos
 
 
 
-import styles from '../styles/Todos.module.css'
+import styles from '../../styles/Todos.module.css'
 
 
 

@@ -46,7 +46,7 @@ export default function Users ({ users, address }) {
                    <p>
 
                    {address.map((address) => (
-                        <li>{address}</li>
+                        <>{address.street}</>
                     ))}
                    </p>
 
