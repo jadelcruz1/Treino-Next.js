@@ -9,6 +9,8 @@ Api usada foi do site https://jsonplaceholder.typicode.com/todos
 
 import styles from '../../styles/Todos.module.css'
 
+import Link  from 'next/link'
+
 
 
 
@@ -34,7 +36,7 @@ export default function Todos ({ todos }) {
                 {todos.map((todo) => (
                 <li key={todo.id}>
                      
-                    {todo.title}
+                    {todo.title} - <Link href={`/todos/${todo.id}`}><a> Ver mais </a></Link>
 
                 </li>               
                 
