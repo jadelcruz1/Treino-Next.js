@@ -43,6 +43,13 @@ export default function Navbar(){
                 <a>Sobre nós </a>
             </Link>
             </li>
+            
+            <li>
+
+            <Link href="/documents">
+                <a> Documentos </a>
+            </Link>
+            </li>
 
             <li>
 

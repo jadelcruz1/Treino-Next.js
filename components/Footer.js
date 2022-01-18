@@ -4,7 +4,7 @@ export default function Footer(){
     return(
 
         <footer className={styles.footer}>
-            <p >Jupter serviços &copy; 2021</p>
+            <p >Jupyter serviços &copy; 2021</p>
         </footer>
     )
 }

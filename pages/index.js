@@ -23,7 +23,7 @@ export default function Home() {
 
       <div>
 
-      <h1 className={styles.title}> Página Home </h1>
+      <h1 className={styles.title}> Jupyter Serviços </h1>
       <Image // a tag Image deve ser usada juntamente com a importação, import image from 'next/image'
 
         src="/images/city.jpg" 
